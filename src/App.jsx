@@ -1,4 +1,4 @@
-import { HashRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
 import { Toaster } from "./components/ui/toaster";
@@ -11,16 +11,16 @@ const App = () => {
   return (
     <>
       <Toaster />
-      <HashRouter>
+      <BrowserRouter>
         <Routes>
           <Route index element={<Home />} />
-          <Route path="*" element={<NotFound />} />
           <Route path="/About" element={<AboutPage />} />
           <Route path="/Skills" element={<SkillsPage />} />
           <Route path="/Projects" element={<ProjectPage />} />
           <Route path="/Contact" element={<ContactPages />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </>
   );
 };
