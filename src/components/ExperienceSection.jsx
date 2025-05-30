@@ -94,7 +94,7 @@ const ExperienceSection = () => {
                 </div>
 
                 {/* Content card */}
-                <div className="flex-1  rounded-2xl p-8 border-1 border-primary  transition-all duration-300 card-hover">
+                <div className="flex-1  rounded-2xl p-8 border-1 gradient-border  transition-all duration-300 card-hover">
                   {/* Header */}
                   <div className="flex flex-col lg:flex-row lg:items-center justify-between mb-6">
                     <div className="flex-1">

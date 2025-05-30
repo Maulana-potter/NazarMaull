@@ -73,7 +73,7 @@ const Faq = () => {
             return (
               <div
                 key={index}
-                className=" rounded-xl border border-primary/40 card-hover transition-all duration-300"
+                className=" rounded-xl border gradient-border card-hover transition-all duration-300"
               >
                 <button
                   type="button"
@@ -119,7 +119,7 @@ const Faq = () => {
 
         {/* University Info */}
         <div className="mt-16 text-center">
-          <div className=" rounded-xl p-8 shadow-sm border card-hover border-primary/50">
+          <div className=" rounded-xl p-8 shadow-sm border card-hover gradient-border">
             <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
               <GraduationCap className="w-6 h-6 text-foreground" />
             </div>

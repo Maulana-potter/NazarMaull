@@ -53,7 +53,7 @@ const EducationSection = () => {
                 </div>
 
                 {/* Content card */}
-                <div className="flex-1 rounded-2xl p-6 border-2 border-primary h5 transition-all duration-300  card-hover">
+                <div className="flex-1 rounded-2xl p-6 border-2 gradient-border h5 transition-all duration-300  card-hover">
                   <div className="flex flex-wrap items-center gap-2 mb-3">
                     <span className="px-3 py-1 bg-primary/50 rounded-full text-sm font-medium">
                       {item.year}
