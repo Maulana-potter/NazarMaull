@@ -50,7 +50,7 @@ const Faq = () => {
   };
 
   return (
-    <div className="min-h-screen py-16 px-4 ">
+    <div className="container relative min-h-screen flex items-center justify-center px-4 ">
       <div className="max-w-3xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
