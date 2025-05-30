@@ -66,20 +66,13 @@ const experienceData = [
 const ExperienceSection = () => {
   return (
     <section className="py-20 px-6 md:px-20 relative overflow-hidden">
-      {/* Background decoration */}
-      <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-10 right-10 w-32 h-32 bg-primary rounded-full blur-xl"></div>
-        <div className="absolute bottom-20 left-20 w-24 h-24 bg-primary rounded-full blur-lg"></div>
-        <div className="absolute top-1/3 right-1/3 w-16 h-16 bg-primary rounded-full blur-md"></div>
-      </div>
-
       <div className="relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-foreground">
-            Experience & Activities
+            Experience
           </h2>
           <p className="text-lg text-foreground max-w-2xl mx-auto">
-            My involvement in programs, organizations, and leadership activities
+            Ini Perjalanan yang sudah aku tempuh
           </p>
         </div>
 
@@ -101,7 +94,7 @@ const ExperienceSection = () => {
                 </div>
 
                 {/* Content card */}
-                <div className="flex-1 bg-white/5 backdrop-blur-sm rounded-2xl p-8 border-2 border-primary hover:bg-white/10 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+                <div className="flex-1  rounded-2xl p-8 border-1 border-primary  transition-all duration-300 card-hover">
                   {/* Header */}
                   <div className="flex flex-col lg:flex-row lg:items-center justify-between mb-6">
                     <div className="flex-1">
@@ -136,7 +129,7 @@ const ExperienceSection = () => {
 
                     <div className="flex items-center gap-2 mt-4 lg:mt-0">
                       <Calendar className="w-4 h-4 text-foreground" />
-                      <span className="px-4 py-2 bg-primary rounded-full text-sm font-medium text-foreground">
+                      <span className="px-4 py-2 bg-primary/50 rounded-full text-sm font-medium text-foreground">
                         {item.period}
                       </span>
                     </div>

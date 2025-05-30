@@ -34,7 +34,7 @@ const PageHeader = ({ judul, deskripsi, halamanSaatIni }) => {
 
       {/* Scroll Indicator */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce">
-        <span className="text-muted-foreground mb-2 text-sm">Gulir</span>
+        <span className="text-muted-foreground mb-2 text-sm">Scroll</span>
         <ArrowDown className="w-5 h-5 text-primary" />
       </div>
     </section>

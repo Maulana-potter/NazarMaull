@@ -24,13 +24,6 @@ const educationData = [
 const EducationSection = () => {
   return (
     <section className="py-20 px-6 md:px-20 relative overflow-hidden">
-      {/* Background decoration */}
-      <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-10 left-10 w-32 h-32 bg-white rounded-full blur-xl"></div>
-        <div className="absolute bottom-20 right-20 w-24 h-24 bg-pink-300 rounded-full blur-lg"></div>
-        <div className="absolute top-1/2 left-1/3 w-16 h-16 bg-blue-300 rounded-full blur-md"></div>
-      </div>
-
       <div className="relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-foreground">
@@ -60,7 +53,7 @@ const EducationSection = () => {
                 </div>
 
                 {/* Content card */}
-                <div className="flex-1 bg-white/10 backdrop-blur-sm rounded-2xl p-6 border-2 border-primary hover:bg-white/15 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+                <div className="flex-1 rounded-2xl p-6 border-2 border-primary h5 transition-all duration-300  card-hover">
                   <div className="flex flex-wrap items-center gap-2 mb-3">
                     <span className="px-3 py-1 bg-primary/50 rounded-full text-sm font-medium">
                       {item.year}

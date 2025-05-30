@@ -22,6 +22,7 @@ const Skills = [
 
   { name: "Microsoft Excel", level: 65, category: "tools" },
   { name: "Visual Studio Code", level: 80, category: "tools" },
+  { name: "Figma", level: 75, category: "tools" },
 
   // Programming Dasar
   { name: "HTML", level: 90, category: "programming" },
