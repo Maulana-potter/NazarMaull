@@ -178,16 +178,6 @@ const ExperienceSection = () => {
             ))}
           </div>
         </div>
-
-        {/* Bottom decoration */}
-        <div className="text-center mt-16">
-          <div className="inline-flex items-center gap-2 px-6 py-3 bg-white/5 backdrop-blur-sm rounded-full border-2 border-primary">
-            <Briefcase className="w-5 h-5 text-foreground" />
-            <span className="text-sm font-medium text-foreground">
-              Growing Through Experience
-            </span>
-          </div>
-        </div>
       </div>
     </section>
   );

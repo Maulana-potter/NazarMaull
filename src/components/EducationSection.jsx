@@ -81,16 +81,6 @@ const EducationSection = () => {
             ))}
           </div>
         </div>
-
-        {/* Bottom decoration */}
-        <div className="text-center mt-16">
-          <div className="inline-flex items-center gap-2 px-6 py-3 bg-white/10 backdrop-blur-sm rounded-full border border-white/20">
-            <GraduationCap className="w-5 h-5 text-foreground" />
-            <span className="text-sm font-medium text-foreground">
-              Perjalanan Belajar Sepanjang Hayat
-            </span>
-          </div>
-        </div>
       </div>
     </section>
   );
