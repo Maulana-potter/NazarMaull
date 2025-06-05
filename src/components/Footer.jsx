@@ -7,16 +7,10 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-card relative border-t border-border mt-12 py-16 px-6 overflow-hidden">
+    <footer className="bg-card relative  border-border mt-12 py-16 px-6 overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
-        <div
-          className="absolute inset-0"
-          style={{
-            backgroundImage: `radial-gradient(circle at 25% 25%, hsl(var(--foreground)) 2px, transparent 2px)`,
-            backgroundSize: "60px 60px",
-          }}
-        ></div>
+        <div className="absolute inset-0"></div>
       </div>
 
       <div className="max-w-6xl mx-auto relative z-10">
@@ -82,7 +76,7 @@ const Footer = () => {
                 <Instagram size={20} />
               </a>
               <a
-                href="https://www.instagram.com/nazarmaull/"
+                href="https://github.com/Maulana-potter"
                 aria-label="GitHub"
                 className="p-3 rounded-xl bg-secondary hover:bg-primary/10 text-muted-foreground hover:text-primary transition-all duration-300 transform hover:scale-110"
                 target="_blank"
