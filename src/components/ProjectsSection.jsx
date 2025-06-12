@@ -29,6 +29,15 @@ const projects = [
     demoUrl: "https://gocheck-blond.vercel.app/",
     githubUrl: "https://github.com/Maulana-potter/Gocheck",
   },
+  {
+    id: 4,
+    title: "Simon Game Arduino  ",
+    description: "Latihan membuat game sederhana menggunakan Arduino",
+    image: "/Projects/Project4.jpg",
+    tags: ["Arduino", "Game"],
+    demoUrl: "https://youtube.com/shorts/zBAVkXWSmYg?feature=share",
+    githubUrl: "https://github.com/Maulana-potter/SimonGameArduino-",
+  },
 ];
 
 const ProjectsSection = () => {
